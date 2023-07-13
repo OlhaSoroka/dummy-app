@@ -2,14 +2,18 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    'weather-widget-osoroka'
+    'weather-widget-osoroka',
+    '@element-plus/nuxt'
   ],
+  elementPlus: {
+
+    },
   imports: {
     autoImport: true
   },
   runtimeConfig: {
     public: {
-      defaultLocation: 'Tokyo'
+      defaultLocation: 'Kiev'
     }
-  }
+  },
 })
