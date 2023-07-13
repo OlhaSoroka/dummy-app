@@ -20,6 +20,6 @@
     "@pinia/nuxt": "^0.4.11",
     "pinia": "^2.1.4",
     "tailwind": "^4.0.0",
-    "weather-widget-osoroka": "^1.0.7"
+    "weather-widget-osoroka": "^1.0.9"
   }
 }
